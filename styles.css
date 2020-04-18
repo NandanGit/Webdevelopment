@@ -1,0 +1,43 @@
+body{
+  background-color: #333333;
+  color: #aaaaaa;
+  text-align: center;
+}
+h1{
+  margin: 50px;
+  font-size: 3.5rem;
+}
+.color-box{
+  border:solid 5px black;
+  border-radius: 25%;
+  display: inline-block;
+  margin: 0.5rem;
+  height: 150px; width: 150px;
+}
+.red-box{
+  background-color: #d00000;
+}
+.green-box{
+  background-color: #00d000;
+}
+.blue-box{
+  background-color: #0000d0;
+}
+.yellow-box{
+  background-color: #d0d000;
+}
+.container{
+  margin-top: 5rem;
+}
+
+/* Styling on the fly */
+.bg-red{
+  background-color: red;
+}
+.transperent{
+  opacity: 0.5;
+}
+.highlight{
+  box-shadow: 1px 1px 5px white;
+}
+/* --Styling on the fly-- */
